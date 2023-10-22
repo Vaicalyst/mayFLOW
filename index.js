@@ -28,4 +28,4 @@ expressServer.start();
 // Start our discord bot
 // (this goes last since)
 // bot.login is blocking
-bot.login(config.TOKEN);
+bot.login(process.env.TOKEN);
